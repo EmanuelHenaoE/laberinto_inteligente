@@ -15,11 +15,11 @@ Encontrar un camino desde la entrada (`S`) hasta la salida (`G`) en un laberinto
 - `#`: pared.
 - `.`: camino libre.
 - `*`: camino encontrado.
-##Solución parcial
+## Solución parcial
 
 Las posiciones recorridas hasta el momento.
 
-##Candidatos
+## Candidatos
 
 Movimientos posibles desde la posición actual:
 
@@ -27,16 +27,17 @@ Arriba
 Abajo
 Izquierda
 Derecha
-Restricciones
+## Restricciones
+
 No atravesar paredes (#)
 No salir de los límites de la matriz
 No visitar una celda más de una vez
 
-##Solución completa
+## Solución completa
 
 Se alcanza cuando la posición actual coincide con la salida (G).
 
-##Retroceso
+## Retroceso
 
 Si desde una posición no existen movimientos válidos, el algoritmo regresa a la posición anterior para probar otro camino.
 
