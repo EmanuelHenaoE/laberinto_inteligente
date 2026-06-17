@@ -41,6 +41,6 @@ Se alcanza cuando la posición actual coincide con la salida (G).
 
 Si desde una posición no existen movimientos válidos, el algoritmo regresa a la posición anterior para probar otro camino.
 
-##Poda
+## Poda
 
 Se evita volver a visitar celdas ya exploradas para reducir búsquedas innecesarias.
