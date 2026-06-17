@@ -1,4 +1,4 @@
-#Laberinto Inteligente
+# Laberinto Inteligente
 
 ## Descripción
 
